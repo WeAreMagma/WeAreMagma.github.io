@@ -1,0 +1,337 @@
+html,body{
+  margin:0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: initial !important;
+}
+
+#menu{
+  position: fixed;
+  height: 100vh;
+  width: 150px;
+  left:0;
+
+}
+#menu img{
+  width: 100px;
+  margin: 35px 25px;
+}
+#menu ul{
+  list-style: none;
+  margin-right: 25px;
+}
+#menu ul li{
+  margin-bottom: 6px;
+  text-align:right;
+}
+#menu ul li a{
+  text-decoration: none;
+  color:black;
+}
+#menu ul li a:hover{
+  font-weight: bold;
+}
+#content{
+  margin-left: 150px;
+  width: calc(100vw - 150px);
+  height: 100vh;
+  position: relative;
+}
+#home{
+  background: url('images/header.png');
+  background-size: cover;
+  height: 100vh;
+}
+#home h1{
+  margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 150px;
+}
+#home h3{
+  text-align: right;
+    padding-right: 60px;
+    font-size: 3.5em;
+    margin-top: 0;
+    font-weight: lighter;
+    line-height: 0.5;
+  }
+.video{
+  text-align: right;
+  padding-right: 100px;
+  margin-top: 90px;
+}
+.video iframe{
+  -moz-box-shadow:    0 0 30px 9px darkgrey;
+   -webkit-box-shadow: 0 0 30px 9px darkgrey;
+   box-shadow:         0 0 30px 9px darkgrey;
+}
+#Youtube{
+  width: 50%;
+  height: 100vh;
+  background: url('images/youtube.png');
+  background-size: cover;
+  display: inline-block;
+  float:left;
+
+}
+.video2{
+  text-align: center;
+}
+.video2 iframe{
+  margin-top: 100px;
+}
+#button{
+  width: 100%;
+  text-align: center;
+}
+.ytbutton{
+  width: 300px;
+  height: 50px;
+  background: white;
+  margin-top: 120px;
+  margin-left: calc(50% - 150px);
+  text-align: center;
+  padding-top: 22px;
+  font-size: 25px;
+  -moz-box-shadow:    0 0 30px 9px grey;
+   -webkit-box-shadow: 0 0 30px 9px grey;
+   box-shadow:         0 0 30px 9px grey;
+
+}
+#Youtube a{
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+
+}
+#blog{
+  display: inline-block;
+  float:left;
+  height: 100vh;
+  width: 50%;
+  background: url('images/blog.png');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#blog p{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#blog a{
+  color:red;
+  text-decoration: none;
+}
+#text{
+  height: 50%;
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.2em;
+}
+#blogbt{
+  margin-top:41px;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  margin-left: calc(50% - 150px);
+  text-align: center;
+  padding-top: 22px;
+  font-size: 25px;
+  color: red;
+  -moz-box-shadow:    0 0 30px 9px grey;
+  -webkit-box-shadow: 0 0 30px 9px grey;
+  box-shadow:         0 0 30px 9px grey;
+}
+#instagram{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  clear: both;
+}
+#ig{
+  background: url('images/instagram.png');
+  position: absolute;
+  opacity: 0.1;
+  height: 100%;
+  width: 100%;
+}
+#allig{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#photos{
+  width: 100%;
+  height: 70%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#prva{
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+  -moz-box-shadow:    0 0 30px 9px grey;
+  -webkit-box-shadow: 0 0 30px 9px grey;
+  box-shadow:         0 0 30px 9px grey;
+}
+#druga{
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+  display:inline-block;
+  -moz-box-shadow:    0 0 30px 9px grey;
+  -webkit-box-shadow: 0 0 30px 9px grey;
+  box-shadow:         0 0 30px 9px grey;
+}
+#treca{
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: inline-block;
+  -moz-box-shadow:    0 0 30px 9px grey;
+  -webkit-box-shadow: 0 0 30px 9px grey;
+  box-shadow:         0 0 30px 9px grey;
+}
+#instabutton{
+  width: 300px;
+  height: 50px;
+  background: white;
+  margin-left: calc(50% - 150px);
+  text-align: center;
+  padding-top: 22px;
+  font-size: 25px;
+  -moz-box-shadow:    0 0 30px 9px grey;
+   -webkit-box-shadow: 0 0 30px 9px grey;
+   box-shadow:         0 0 30px 9px grey;
+   margin-top: 30px;
+}
+#instabutton a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+#africa{
+  width: 100%;
+  height: 100vh;
+  background: url('images/map.png');
+  background-size: cover;
+  -moz-box-shadow:    3px 3px 10px 6px black;
+  -webkit-box-shadow: 3px 3px 10px 6px black;
+  box-shadow:         3px 3px 10px 6px black;
+  clear:both;
+}
+#africa h1{
+  font-weight: bold;
+  color: white;
+  font-size: 70px;
+  padding-top: 100px;
+  padding-left: 100px;
+  margin-bottom: 0;
+}
+#africa h3{
+  color: white;
+  font-size: 50px;
+  padding-left: 100px;
+  margin-top: 10px;
+}
+
+#lasttwo{
+  width: 100%;
+  height: 100vh;
+
+}
+#first{
+  width: 100%;
+  height: 80%;
+
+}
+#pictures{
+  background: url('images/sponsor.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.1;
+}
+#in{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#coca{
+  height: 80px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-block;
+}
+#gopro{
+  height: 80px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: inline-block;
+}
+#google{
+  height: 80px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-block;
+}
+#redbull{
+
+  height: 160px;
+  width: 300px;
+  margin-top: 150px;
+  margin-left: 50px;
+  display: inline-block;
+}
+#nasa{
+  height: 80px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-block;
+}
+#amazon{
+  height: 80px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+#second{
+  width: 100%;
+  height: 20%;
+  background: url('images/contact.png');
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,1);
+             -moz-box-shadow: 0px 0px 20px rgba(0,0,0,1);
+                        box-shadow: 0px 0px 20px rgba(0,0,0,1);
+         z-index: 100;
+}
+#second p{
+  font-weight: bold;
+  color: white;
+  margin-left: 120px;
+  padding-top: 50px;
+  font-size: 30px;
+}
